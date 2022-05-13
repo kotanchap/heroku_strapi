@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bares",
+  "info": {
+    "singularName": "bar",
+    "pluralName": "bares",
+    "displayName": "Bar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Direccion": {
+      "type": "string"
+    },
+    "Coordenadas2D": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    }
+  }
+}
