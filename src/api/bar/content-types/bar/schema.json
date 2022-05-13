@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bar",
     "pluralName": "bares",
-    "displayName": "Bar"
+    "displayName": "Bar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,11 @@
     },
     "Descripcion": {
       "type": "string"
+    },
+    "id_alcaldias": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::alcaldia.alcaldia"
     }
   }
 }

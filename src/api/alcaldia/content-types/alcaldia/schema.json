@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alcaldias",
+  "info": {
+    "singularName": "alcaldia",
+    "pluralName": "alcaldias",
+    "displayName": "Alcaldias",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}
